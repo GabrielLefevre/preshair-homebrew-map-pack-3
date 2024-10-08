@@ -1,0 +1,33 @@
+{
+  "id": "preshair-homebrew-map-pack-3",
+  "title": "Preshair homebrew map pack 2",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "description": "My personal content in compendium",
+  "authors": [
+    {
+      "name": "Preshair",
+      "discord": "Preshair",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/GabrielLefevre/preshair-homebrew-map-pack-3",
+  "manifest": "https://github.com/GabrielLefevre/preshair-homebrew-map-pack-3/releases/latest/download/module.json",
+  "download": "https://github.com/GabrielLefevre/preshair-homebrew-map-pack-3/releases/latest/download/preshair-homebrew-map-pack-3.zip",
+  "packs": [
+    {
+      "name": "map",
+      "label": "map",
+      "path": "packs/map",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
